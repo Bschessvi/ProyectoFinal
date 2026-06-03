@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desigualdad en el acceso de atención sanitaria">
+  <meta property="og:title" content="ODS 3 - Atención Sanitaria">
+  <meta property="og:description" content="Sitio web sobre desigualdad en el acceso de atención sanitaria">
+  <title>ODS 3 - Atención Sanitaria</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body data-topic="Desigualdad en el acceso de atención sanitaria">
+
+  <header class="header">
+
+    <div class="logo">
+      <svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+        <circle cx="50" cy="50" r="45" fill="#0A9396"/>
+        <path d="M50 25V75M25 50H75" stroke="white" stroke-width="10" stroke-linecap="round"/>
+      </svg>
+
+      <span>ODS 3</span>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+      ☰
+    </label>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio" class="active">Inicio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+
+      <div class="hero-content">
+
+        <h1>
+          Desigualdad en el acceso de atención sanitaria
+        </h1>
+
+        <p>
+          Sitio web sobre la importancia de garantizar servicios médicos accesibles para todos.
+        </p>
+
+        <a href="#modal" class="btn">
+          Conoce más
+        </a>
+
+      </div>
+
+    </section>
+
+    <div id="modal" class="modal">
+
+      <div class="modal-content">
+
+        <a href="#" class="close">
+          &times;
+        </a>
+
+        <h2>ODS 3</h2>
+
+        <p>
+          El objetivo es reducir la desigualdad en el acceso a servicios de salud de calidad.
+        </p>
+
+      </div>
+
+    </div>
+
+    <section class="about" id="sobre">
+
+      <div>
+
+        <h2>Sobre nosotros</h2>
+
+        <p>
+          Este proyecto busca generar conciencia sobre la desigualdad en el acceso de atención sanitaria y promover soluciones inclusivas.
+        </p>
+
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop"
+        alt="Atención médica"
+        loading="lazy"
+      >
+
+    </section>
+
+    <section class="services" id="servicios">
+
+      <h2>Servicios</h2>
+
+      <div class="cards">
+
+        <article class="card">
+
+          <h3>Campañas</h3>
+
+          <p>
+            Difusión de información médica.
+          </p>
+
+          <details>
+
+            <summary>
+              Más información
+            </summary>
+
+            <p>
+              Realizamos campañas educativas para comunidades vulnerables.
+            </p>
+
+          </details>
+
+        </article>
+
+        <article class="card">
+
+          <h3>Apoyo comunitario</h3>
+
+          <p>
+            Impulsamos programas sociales.
+          </p>
+
+          <details>
+
+            <summary>
+              Más información
+            </summary>
+
+            <p>
+              Trabajamos con organizaciones para ampliar la cobertura médica.
+            </p>
+
+          </details>
+
+        </article>
+
+        <article class="card">
+
+          <h3>Capacitación</h3>
+
+          <p>
+            Educación para el bienestar.
+          </p>
+
+          <details>
+
+            <summary>
+              Más información
+            </summary>
+
+            <p>
+              Promovemos talleres sobre salud y prevención.
+            </p>
+
+          </details>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section class="testimonials" id="testimonios">
+
+      <h2>Testimonios</h2>
+
+      <input type="radio" name="slider" id="t1" checked>
+      <input type="radio" name="slider" id="t2">
+      <input type="radio" name="slider" id="t3">
+
+      <div class="slider">
+
+        <div class="slides s1">
+          <p>
+            “Gracias a este proyecto, muchas personas recibieron apoyo médico.”
+          </p>
+        </div>
+
+        <div class="slides">
+          <p>
+            “La información compartida ayudó a mi comunidad.”
+          </p>
+        </div>
+
+        <div class="slides">
+          <p>
+            “La atención sanitaria debe ser accesible para todos.”
+          </p>
+        </div>
+
+      </div>
+
+      <div class="controls">
+
+        <label for="t1"></label>
+        <label for="t2"></label>
+        <label for="t3"></label>
+
+      <!-- Video de testimonios -->
+<div class="video-testimonio">
+  <video width="700" controls>
+    <source src="https://youtu.be/MCKH5xk8X-g" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+</div>
+
+    </section>
+
+    <section class="contact" id="contacto">
+
+      <h2>Contacto</h2>
+
+      <form action="#gracias">
+
+        <label for="nombre">
+          Nombre
+        </label>
+
+        <input type="text" id="nombre" required>
+
+        <label for="email">
+          Email
+        </label>
+
+        <input type="email" id="email" required>
+
+        <label for="mensaje">
+          Mensaje
+        </label>
+
+        <textarea id="mensaje" required></textarea>
+
+        <button type="submit">
+          Enviar
+        </button>
+
+      </form>
+
+      <div id="gracias" class="gracias">
+        <p>
+          ¡Mensaje enviado correctamente!
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <p>
+      © 2026 ODS 3 - Atención Sanitaria
+    </p>
+
+    <div class="socials">
+
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+
+    </div>
+
+  </footer>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
